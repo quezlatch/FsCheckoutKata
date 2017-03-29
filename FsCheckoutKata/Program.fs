@@ -88,13 +88,7 @@ let tests =
                                         "ABCD"
                                         |> Seq.fold calc checkout
                                         |> total
-                                   Assert.Equal("A + B + C + D = 115", 115, 
-                                                checkout
-                                                |> scan "A"
-                                                |> scan "B"
-                                                |> scan "C"
-                                                |> scan "D"
-                                                |> total) ]
+                                   Assert.Equal("A + B + C + D = 115", 115, price) ]
 
 [<EntryPoint>]
 let main args = defaultMainThisAssembly args
