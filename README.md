@@ -1,0 +1,2 @@
+# FsCheckoutKata
+F# Checkout Kata
